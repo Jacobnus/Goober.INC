@@ -1,0 +1,28 @@
+.navbar ul {
+    list-style-type: none;
+    background-color: rgb(48, 48, 48);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar:active {
+    animation-name: faded;
+    animation-duration: 1s;
+}
+@keyframes faded {
+    50% {opacity: 60%;}
+}
+.navbar a:hover {
+    background-color: rgb(34, 34, 34);
+
+}
+.navber li {
+    float: left;
+}
